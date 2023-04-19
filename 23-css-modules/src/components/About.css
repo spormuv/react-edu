@@ -1,0 +1,9 @@
+.about {
+  max-width: 40%;
+  padding: 20px;
+  margin: 20px auto;
+  border: 2px dotted #ccc;
+  border-radius: 10px;
+  font-weight: 900;
+  color: orange;
+}
