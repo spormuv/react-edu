@@ -1,5 +1,5 @@
 const Login = () => {
-  const handleFormSubmit = (event) => {
+  const handleFormSubmit = event => {
     event.preventDefault();
 
     const userData = {

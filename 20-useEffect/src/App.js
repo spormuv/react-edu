@@ -7,8 +7,8 @@ function App() {
   useEffect(() => {
     console.log('Callback in useEffect called');
     fetch('https://jsonplaceholder.typicode.com/todos/1')
-      .then((response) => response.json())
-      .then((json) => setTodo(json));
+      .then(response => response.json())
+      .then(json => setTodo(json));
   }, []);
 
   console.log('App Rendered');
