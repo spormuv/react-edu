@@ -1,0 +1,9 @@
+.todoList {
+  max-width: 620px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: start;
+  list-style: none;
+}
