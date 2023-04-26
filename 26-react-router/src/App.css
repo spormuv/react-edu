@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+/* Used by default with NavLink */
+/* .active {
+  text-decoration: none;
+  color: lightyellow;
+} */
+
+.activeLink {
+  text-decoration: none;
+  color: lightyellow;
+}
+
+a {
+  font-size: 35px;
+  color: lightblue;
+}
+
+nav {
+  padding: 5px;
+  background-color: darkslategray;
+}
+
+nav a {
+  margin: 15px;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 90px;
+}
+
+button {
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 5px;
+  margin: 20px;
+  border: 0;
+  cursor: pointer;
+}
